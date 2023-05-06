@@ -1,0 +1,155 @@
+.navbar{
+    display: flex;
+    background-color: #FFFFFF;
+    font-family: 'Glory', sans-serif;
+    font-size: 20px;
+}
+.navbar_menu{
+    display: flex;
+    list-style: none;
+    padding-left: 0%;
+    transform: translate(100px, 0px);
+}
+
+.navbar_menu li{
+    padding: 8px 12px;
+}
+
+a{
+    text-decoration: none;
+    color: #460A9A;
+}
+.Logo{
+    color: white;
+    font-family: 'Glory', sans-serif;
+    font-size: 120px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 500;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+.share_btn{ 
+    transform: translate(50px,-290px);
+ }
+#modal_btn{
+    color: white;
+    border: none;
+    background-color:transparent;
+    font-family: 'Glory', sans-serif;
+    height: 70px;
+    width: 550px;
+    font-size: 70px;
+    font-weight: 300; 
+  }
+
+ .bird1{
+    transform: translate(310px,-1215px);
+ }
+ .bird2{
+    transform: translate(240px,-610px);
+ }
+
+ span{
+    color: white;
+    font-family: 'Glory', sans-serif;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    
+
+}
+html,body{width:100%; height: 130%;}
+body{
+    margin: 0;
+    padding: 0;
+
+}
+.back_color{
+    width: 100%; height:130%;
+    background: linear-gradient(#B388FF,#460A9A);
+}
+
+/* share 버튼을 누르면 나오는 모달 */
+.modal_wrap{
+    display: none;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 170%;
+    left: 50%;
+    margin: -250px 0 0 -250px;
+    background:white;
+    z-index: 2;
+    border-radius: 20px;
+}
+.black_bg{
+    display: none;
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0, 0,0, 0.5);
+    top: 119%;
+    left: 0;
+    z-index: 1;
+}
+.modal_close{
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    top: -30px;
+    right: 0;
+}
+.modal_close> a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background:url(https://img.icons8.com/metro/26/000000/close-window.png);
+    text-indent: -9999px;
+}
+.modal_title{
+    font-family: 'Glory', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #460A9A;
+    border-bottom: solid 2px #B388FF;
+
+}
+input[type=text]{
+    text-align: center;
+    position: relative;
+    top: 20px;
+    height: 30px;
+    left: 20px;
+    width: 455px;
+    border-radius: 20px;
+    border: 2px solid #B388FF;
+}
+input[type=text]::placeholder {
+    color: #B388FF;
+    font-family: 'Glory', sans-serif;
+  }
+textarea {
+    text-align: center;
+    position: relative;
+    top: 40px;
+    left: 20px;
+    height: 200px;
+    width: 455px;
+    border-radius: 20px;
+    border: 2px solid #B388FF;
+}
+textarea::placeholder{
+    color: #B388FF;
+    font-family: 'Glory', sans-serif;
+}

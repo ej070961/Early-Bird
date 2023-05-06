@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>main page</title>
+    <link rel="stylesheet" href="style copy.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Glory:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body style="overflow-x: hidden">
+    <header>
+        <div class="menu" >
+            <nav class="navbar">
+              <ul class="navbar_menu">
+                <li><a href="">Home</a></li> <!--""<-여기 부분에 URL 작성하면 됨-->
+                <li><a href="">Flock</a></li>
+                <li><a href="">My Page</a></li>
+            </ul>
+          </nav>
+          </div>
+    </header>
+    
+    <div class="back_color">  </div>
+    <div class="Logo">
+        EARLY BIRD
+    </div>
+    
+    <div class="share_btn">
+        <button id="modal_btn">Share My Morning</button>
+    </div>
+   
+
+
+    <div class="bird1">
+        <img src="mybird.png" alt="bird" width="104" height="128">
+    </div>
+
+    <div class="bird2">
+        <img src="mybird.png" alt="bird" width="104" height="128">
+    </div>
+
+    <div id="quote">
+        <span></span>
+        <span></span>
+    </div>
+
+    <!-- 모달창&배경처리 -->
+    <div class="black_bg"></div>
+    <div class="modal_wrap">
+        <div class="modal_close"><a href="#">close</a></div>
+        <div class="modal_title">
+            Share My Morning
+        </div>
+        <form>
+            <input type="text" name="title", placeholder="제목을 입력 하세요.">
+            <textarea name="detail", placeholder="내용을 입력 하세요."></textarea>
+        </form>
+
+    <script src="quotes.js"></script>
+
+</body>
+</html>
